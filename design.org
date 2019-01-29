@@ -1,0 +1,58 @@
+* TODO Modules [0%]
+** TODO Core [16%]
+*** DONE DOM
+    [[lib/dom.pl]]
+*** TODO xpath [33%]
+**** DONE parser 
+     [[./lib/xpath_syntax.pl]]
+**** DONE evaluator
+     [[./lib/xpath_eval.pl]]
+**** TODO types [40%]
+***** DONE boolean
+***** DONE string
+***** TODO numeric
+***** TODO [#C] dates
+***** TODO [#C] duration
+***** TODO derived types
+**** TODO library [0%]
+***** TODO [#A] accessors
+***** TODO errors
+***** TODO numeric functions
+***** TODO [#A] string functions
+***** TODO [#A] URI functions
+***** TODO [#A] boolean functions
+***** TODO [#C] duration functions
+***** TODO [#C] date/time functions
+***** TODO qname functions
+***** TODO [#C] binary functions
+***** TODO [#A] node functions
+***** TODO [#A] sequence functions
+***** TODO [#A] context functions
+***** TODO higher-order functions
+***** TODO [#C] maps and arrays
+*** TODO xpointer [0%]
+**** TODO framework
+**** TODO xpath
+**** TODO element
+**** TODO left/right
+**** TODO range
+**** TODO match
+*** TODO css selectors
+*** TODO config parse (toml)
+*** TODO TAL [0%]
+**** TODO Basic TAL
+**** TODO TALES
+***** TODO path
+***** TODO string
+***** TODO not, exists, nocall
+***** TODO xpath
+***** TODO xpointer
+**** TODO METAL
+*** TODO generic indices
+** TODO TEI [0%]
+*** TODO references
+*** TODO rendition
+*** TODO models
+*** TODO [#A] general structure
+*** TODO [#A] dictionaries
+*** TODO feature structures
