@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Review: an electronic transcription</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Published as an example for the Introduction module of TBE.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source: born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:base="#xxx">
+    <body>
+      <head>Review</head>
+      <p>
+        <title xml:id="xxx" xml:lang="de">Die Leiden des jungen Werther</title>
+        <note place="foot">by <name>Goethe</name> </note>
+        is an
+        <emph xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:type="xs:NMTOKEN">exceptionally</emph>
+      good example of a book full of <term>Weltschmerz</term>.</p>
+    </body>
+</text>
+</TEI>

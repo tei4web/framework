@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:pwp="http://www.cs.otago.ac.nz/staffpriv/ok/pwp.pl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Search Form</title>
+  </head>
+  <body>
+    <form action="query.html" method="get">
+      <ul>
+        <li><label for="tag">Tag:</label> <input type="text" name="tag" id="tag" /></li>
+        <li><label for="text">Word:</label> <input type="text" name="text" id="text" /></li>
+        <li><label for="attr">Attribute:</label> <input type="text" name="attr" id="attr" /> <input type="text" name="attrval" /></li>
+        <li><hr/></li>
+        <li><label for="ref">Ref:</label> <input type="text" name="ref" id="ref" /></li>
+        <li><label for="up">Container:</label> <input type="text" name="up" id="up" /></li>
+        <li><label for="from">Range:</label> <input type="text" name="from" id="from" /> <input type="text" name="to" id="to" /></li>
+        <li><input type="submit" /></li>
+      </ul>
+    </form>
+  </body>
+</html>

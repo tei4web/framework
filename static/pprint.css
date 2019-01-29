@@ -1,0 +1,19 @@
+.pp-name {
+    font-weight: bold;
+}
+
+.pp-starttag:before {
+    content: "<";
+}
+
+.pp-attributes:after {
+    content: ">";
+}
+
+.pp-endtag:before {
+    content: "</";
+}
+
+.pp-endtag:after {
+    content: ">";
+}
